@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+:root{
+  
+    --body-font: 'Nunito', sans-serif;
+}
+
+body{
+    
+    padding: 0px;
+    background-color:rgb(26, 36, 45);  
+
+}
+.con{
+    border: 2px solid rgb(41, 51, 57);
+    padding: 1px;
+}
+.head{
+    background-color:rgb(41, 51, 57);  
+      color: white;
+      
+
+}
+.foot{
+    background-color:rgb(41, 51, 57); 
+    color: white;
+}
+
+.side{
+    background-color:rgb(26, 36, 45);  
+    color: white;
+    height: 150vh;
+}
+   
+   .date{
+    margin-top: 10px;
+   } 
+
+.header_right{
+   float: right;
+   margin-top: 10px;
+  
+
+}
+.header_left{
+    margin: 5px;
+}
+.nav_item{
+    background-color:rgb(41, 51, 57); 
+    padding:  2px 2px 2px 30px;
+    text-align: left;
+   width: 100%;
+   border-radius: 3%;
+   margin-bottom: 20px;
+   color: rgb(233, 248, 248);
+}
+.total{
+    height: 200px;
+    width: 500px;
+    padding: 5px;
+    margin:  20px 10px 10px 10px;
+    border: 3px outset rgb(41, 51, 57);
+    background-color: white;
+    color: black;
+    border-left: 5px solid red;
+    border-right: 5px solid blue;
+    box-shadow: 10px 10px grey;
+}
+.active-student{
+    height: 200px;
+    width: 500px;
+    border: 3px outset rgb(41, 51, 57);
+    padding: 5px;
+    margin: 20px 10px 10px 10px;
+    background-color: white;
+    color: black;
+    border-left: 5px solid blue;
+    border-right: 5px solid red;
+    box-shadow: 10px 10px grey;
+}
+
+table{
+    margin-top: 20px;
+}
+ 
+  .form{
+    width: 50%;
+    text-align: left;
+    }
+  
+    .nav-item:hover{
+    background-color: rgb(40, 164, 154);
+        
+    }
+    
+  .index{
+
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial;
+    color: black;
+    background-color: rgb(180, 176, 173);
+}
+
+    
+
+fieldset{
+  font-weight: bold;
+  width: 500;
+  color :white;
+  background: rgb(168, 165, 163);
+  border: 2px dotted white;
+  border-radius: 5%;
+}
+#in{
+  width: 500;
+  height: 50;
+  border-radius: 30px;
+  border: 0;
+  text-transform: capitalize;
+}
+#login{
+  width: 500;
+  height: 50;
+  border: 0;
+  background-color: blue;
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+}
+.round{
+    background-color:  rgb(41, 51, 57);
+     border-radius: 90%; 
+      font-weight: bolder; 
+      color: white; 
+      font-size: 30px;
+      height: 60px;
+      width: 60px;
+      margin-top: 10px; 
+      margin-left: 50%;
+      text-align: center; 
+}
+.navbar-nav
+{
+    margin-top: 30%;
+}
+.data{
+    margin: 20px;
+}
+
+.form{
+    background-color:  rgb(180, 176, 173);
+    padding: 30px;
+    border: 1px solid  rgb(41, 51, 57);
+    margin-top: 30px ;
+}
+.gender{
+    width: 100%;
+    height: 40px;
+}
+.row_hover :hover{
+    background-color:  rgb(161, 208, 235);
+}
+.icon{
+    
+    padding: 10px;
+    color: rgb(41, 51, 57);
+    margin-top: 1%;
+    margin-left: 1%;
+   
+ 
+}
+.input-container{
+    display: flex;
+}
+.input-field{
+    padding: 1px;
+    outline: none;
+
+}
+.content{
+    background-color: rgb(206, 203, 201);
+}
+.icon-total{
+    font-size: 125px;
+    color: blue;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.icon-active{
+    font-size: 125px;
+    color: green;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.txt{
+    padding-left: 130px;
+    margin-top: -80px;
+    text-shadow: 3px 3px 5px gray;
+}
